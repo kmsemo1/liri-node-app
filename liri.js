@@ -9,6 +9,9 @@ var inquirer = require("inquirer");
 
 // grabbing commands from keys 
 var command = inputString[2];
+
+// variable to hold count for 20 of recent tweets
+var count = 0; 
 // and storing in variables
 if (command === "my-tweets") {
 
